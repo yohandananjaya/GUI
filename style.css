@@ -206,3 +206,48 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+.choose-btns {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+
+}
+.choose-btns .emp-choose {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.choose-btns .cmp-choose {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.choose-btns .cmp-choose:hover {
+    background: #fff;
+    color: #162938;
+    
+}
+.choose-btns .emp-choose:hover {
+    background: #fff;
+    color: #162938;
+}
