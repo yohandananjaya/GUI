@@ -90,6 +90,7 @@ header {
     overflow: hidden;
     transform: scale(0);
     transition: transform .5s ease, height .2s ease;
+    left: 40em;
 }
 .wrapper.active-popup {
     transform: scale(1);
@@ -208,11 +209,19 @@ header {
 }
 .choose-btns {
     position: relative;
-    font-size: 1.1em;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
+    width: 350px;
+    height: 90px;
+    background: transparent;
+    border: 2px solid rgba(225,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    bottom: -10em;
+    left: -40em;
 
 
 }
@@ -227,7 +236,7 @@ header {
     font-size: 1.1em;
     color: #fff;
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .choose-btns .cmp-choose {
     width: 130px;
