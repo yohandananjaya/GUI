@@ -1,0 +1,49 @@
+﻿<Page x:Class="Workbridge.ProfilePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Profile Page">
+    <Grid Margin="20">
+        <TextBlock Text="User Profile" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <StackPanel>
+            <!-- Full Name -->
+            <TextBlock Text="Full Name:" Margin="0,5"/>
+            <TextBox Name="FullNameBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Department -->
+            <TextBlock Text="Department:" Margin="0,5"/>
+            <TextBox Name="DepartmentBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Work Experience -->
+            <TextBlock Text="Work Experience:" Margin="0,5"/>
+            <TextBox Name="WorkExperienceBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Current Projects -->
+            <TextBlock Text="Current Projects:" Margin="0,5"/>
+            <TextBox Name="CurrentProjectsBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Education Level -->
+            <TextBlock Text="Education Level:" Margin="0,5"/>
+            <TextBox Name="EducationLevelBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Certifications -->
+            <TextBlock Text="Certifications:" Margin="0,5"/>
+            <TextBox Name="CertificationsBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Hard Skills -->
+            <TextBlock Text="Hard Skills:" Margin="0,5"/>
+            <TextBox Name="HardSkillsBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Soft Skills -->
+            <TextBlock Text="Soft Skills:" Margin="0,5"/>
+            <TextBox Name="SoftSkillsBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Languages -->
+            <TextBlock Text="Languages:" Margin="0,5"/>
+            <TextBox Name="LanguagesBox" Width="300" Margin="0,0,0,10"/>
+
+            <!-- Save Button -->
+            <Button Content="Save Profile" Width="100" HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveProfile"/>
+        </StackPanel>
+    </Grid>
+</Page>

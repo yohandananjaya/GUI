@@ -1,0 +1,17 @@
+﻿<Window x:Class="Workbridge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Workbridge" Height="500" Width="800">
+    <DockPanel>
+        <!-- Sidebar Navigation -->
+        <StackPanel DockPanel.Dock="Left" Background="#2C3E50" Width="200">
+            <TextBlock Text="Workbridge" Foreground="White" FontSize="24" Margin="10"/>
+            <Button Content="Home" Click="GoToHome" Foreground="White" Background="Transparent"/>
+            <Button Content="Profile" Click="GoToProfile" Foreground="White" Background="Transparent"/>
+            <Button Content="Logout" Click="Logout" Foreground="White" Background="Red"/>
+        </StackPanel>
+
+        <!-- Main Content -->
+        <Frame Name="MainContent" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

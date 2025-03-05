@@ -1,0 +1,36 @@
+﻿<Window x:Class="Workbridge.RegisterPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Register - Workbridge" Height="350" Width="400">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="60.04"/>
+            <RowDefinition Height="Auto" MinHeight="39.96"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Full Name -->
+        <TextBlock Text="Full Name:" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" Height="15"/>
+        <TextBox Name="FullNameBox" Grid.Row="0" Grid.Column="1" Margin="47,0,47,10"/>
+
+        <!-- Email -->
+        <TextBlock Text="Email:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" Height="15"/>
+        <TextBox Name="EmailBox" Grid.Row="1" Grid.Column="1" Margin="47,0,47,10"/>
+
+        <!-- Password -->
+        <TextBlock Text="Password:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,0" Height="15"/>
+        <PasswordBox Name="PasswordBox" Grid.Row="2" Grid.Column="1" Margin="47,0,47,10"/>
+
+        <!-- Register Button -->
+        <Button Content="Register" Grid.Row="3" Grid.Column="1" Width="100" HorizontalAlignment="Left" Margin="64,44,0,10" Click="Register_Click"/>
+
+        <!-- Back to Login Button -->
+        <Button Content="Back to Login" Grid.Row="4" Grid.Column="1" Width="100" HorizontalAlignment="Left" Margin="64,10,0,10" Click="BackToLogin" RenderTransformOrigin="0.525,1.901"/>
+    </Grid>
+</Window>
