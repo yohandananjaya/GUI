@@ -1,0 +1,102 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fb;
+  }
+  
+  .frm {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Label Styles */
+  label {
+    font-size: 1.1em;
+    color: #162938;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #162938;
+    border: 2px solid #162938;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4caf50;
+  }
+  
+  /* Buttons */
+  button, .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #162938;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #4caf50;
+  }
+  
+  /* Back Button Link */
+  .btn-back {
+    background-color: transparent;
+    color: #162938;
+    border: 2px solid #162938;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+  }
+  
+  .btn-back:hover {
+    background-color: #162938;
+    color: #fff;
+  }
+  
+  /* Spacing */
+  div {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    form {
+      padding: 20px;
+    }
+  }
+  

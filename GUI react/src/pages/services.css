@@ -1,0 +1,95 @@
+.services-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(225, 255, 255, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 80px;
+}
+
+.services-header {
+  margin-bottom: 40px;
+}
+
+.services-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff; /* Heading color */
+}
+
+.services-header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555; /* Text color */
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333; /* Heading color */
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #555; /* Text color */
+}
+
+.service-card:hover {
+  background: #e0e0e0;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.cta-section {
+  margin-top: 40px;
+}
+
+.cta-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff; /* Heading color */
+}
+
+.cta-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555; /* Text color */
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}

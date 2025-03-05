@@ -1,0 +1,104 @@
+.contact-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(225, 255, 255, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 80px;
+}
+
+.contact-header {
+  margin-bottom: 40px;
+}
+
+.contact-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff; /* Heading color */
+}
+
+.contact-header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555; /* Text color */
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 48%;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-form h2,
+.contact-info h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #007bff; /* Heading color */
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #333; /* Label color */
+}
+
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-info p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #555; /* Text color */
+}
+
+.map {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}

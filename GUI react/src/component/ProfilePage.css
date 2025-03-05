@@ -1,0 +1,134 @@
+/* Professional Profile Page Styling */
+
+/* General Container Styling */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Page Heading */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Create Profile Button */
+  .btn2.btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto;
+    padding: 12px;
+    background: #0a66c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn2.btn-add:hover {
+    background: #004182;
+  }
+  
+  /* Table Container */
+  .table-container {
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  th, td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  th {
+    background: #f3f2ef;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  td {
+    color: #333;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Buttons inside the table */
+  .btn2 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background: #0a66c2;
+    color: white;
+    margin-right: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background: #004182;
+  }
+  
+  .btn-danger {
+    background: #d62828;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .btn-danger:hover {
+    background: #a71c1c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    th, td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .btn2 {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  .profile-photo {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%;  /* Makes it circular */
+    object-fit: cover;  /* Ensures it fills the space properly */
+    border: 3px solid #ddd;  /* Optional border for styling */
+  }
+  
