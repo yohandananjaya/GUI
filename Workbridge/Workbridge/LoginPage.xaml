@@ -2,10 +2,10 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Login - Workbridge" 
-        Height="400" 
-        Width="600"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="NoResize">
+              WindowState="Maximized"
+WindowStyle="SingleBorderWindow"
+ResizeMode="CanResize"
+WindowStartupLocation="CenterScreen">
 
     <!-- Background Image -->
     <Grid>
@@ -28,12 +28,13 @@
         <!-- Main Content -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
             <!-- Logo or Title -->
-            <TextBlock Text="Workbridge" 
-                       FontSize="28" 
-                       FontWeight="Bold" 
-                       Foreground="White" 
-                       HorizontalAlignment="Center" 
-                       Margin="0,0,0,20"/>
+            <TextBlock x:Name="WelcomeText" 
+           Text="LOGIN" 
+           FontSize="30" 
+           FontWeight="Bold" 
+           Foreground="White" 
+           HorizontalAlignment="Center" 
+           Margin="0,0,0,20"/>
 
             <!-- Email Input -->
             <TextBlock Text="Email" 

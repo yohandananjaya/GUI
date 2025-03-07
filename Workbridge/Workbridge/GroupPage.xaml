@@ -3,18 +3,21 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       Title="Groups">
 
-    <Grid Background="#F5F5F5">
+    <Grid Opacity="1">
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\Workbridge\images\compan.png" Stretch="UniformToFill" Opacity="0.8"/>
+        </Grid.Background>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400">
             <!-- Title -->
-            <TextBlock Text="Group Management" 
-                       FontSize="24" 
+            <TextBlock Text="GROUPS" 
+                       FontSize="40" 
                        FontWeight="Bold" 
-                       Foreground="#2C3E50" 
+                       Foreground="White" 
                        HorizontalAlignment="Center" 
                        Margin="0,0,0,20"/>
 
             <!-- Search Group -->
-            <TextBlock Text="Find Groups" FontSize="14" Foreground="Black" Margin="0,5,0,5"/>
+            <TextBlock Text="Find Groups" FontSize="20" Foreground="White" FontWeight="Bold" Margin="0,5,0,5"/>
             <TextBox x:Name="SearchBox" 
                      Height="30" Padding="5" 
                      Background="White" Foreground="#2C3E50" 
@@ -37,7 +40,7 @@
             </ListBox>
 
             <!-- Create New Group -->
-            <TextBlock Text="Create New Group" FontSize="14" Foreground="Black" Margin="0,10,0,5"/>
+            <TextBlock Text="Create New Group" FontSize="20" Foreground="White" FontWeight="Bold" Margin="0,10,0,5"/>
             <TextBox x:Name="GroupNameBox" Height="30" Padding="5" Background="White" 
                      Foreground="#2C3E50" BorderBrush="#4CA1AF" BorderThickness="1"/>
 

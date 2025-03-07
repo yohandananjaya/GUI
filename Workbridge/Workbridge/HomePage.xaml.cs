@@ -11,6 +11,22 @@ namespace Workbridge
         {
             InitializeComponent();
         }
+        private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            // Add your resizing logic here
+            // For example, you can adjust the font size, margins, or visibility of elements
+            // based on the new size of the window.
+
+            // Example: Adjust the font size of the welcome text based on the window width
+            if (e.NewSize.Width < 800)
+            {
+                WelcomeText.FontSize = 24; // Smaller font size for smaller windows
+            }
+            else
+            {
+                WelcomeText.FontSize = 30; // Default font size for larger windows
+            }
+        }
 
         // Event handler for "Find Jobs" button
         private void FindJobs_Click(object sender, RoutedEventArgs e)

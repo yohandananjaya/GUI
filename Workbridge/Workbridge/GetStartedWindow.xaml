@@ -2,10 +2,10 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Workbridge - Get Started" 
-        Height="400" 
-        Width="600" 
-        WindowStartupLocation="CenterScreen" 
-        ResizeMode="NoResize">
+        WindowState="Maximized"
+ WindowStyle="SingleBorderWindow"
+ ResizeMode="CanResize"
+ WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
@@ -37,16 +37,16 @@
 
     <Grid>
         <!-- Background Image -->
-        <Image Source="D:\Workbridge\images\hero_82.png" 
+        <Image Source="D:\Workbridge\images\hero_82 (2).png" 
                Stretch="Fill" 
                Opacity="0.8"/>
 
         <!-- Content Overlay -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="Welcome to Workbridge" 
-                       FontSize="30" 
+            <TextBlock Text="WELCOME TO WORKBRIDGE" 
+                       FontSize="50" 
                        FontWeight="Bold" 
-                       Foreground="White"
+                       Foreground="Blue"
                        HorizontalAlignment="Center" 
                        Margin="0,0,0,10" 
                        Opacity="0.9" RenderTransformOrigin="0.489,-0.805" Height="102"/>

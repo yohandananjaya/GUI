@@ -133,9 +133,6 @@ D:\Workbridge\Workbridge\obj\Debug\Workbridge.csproj.GenerateResource.cache
 D:\Workbridge\Workbridge\obj\Debug\Workbridge.csproj.CoreCompileInputs.cache
 D:\Workbridge\Workbridge\obj\Debug\Workbridge.csproj.Up2Date
 D:\Workbridge\Workbridge\obj\Debug\GroupPage.g.cs
-D:\Workbridge\Workbridge\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\Workbridge\Workbridge\obj\Debug\GroupPage.baml
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\obj\Debug\GroupPage.baml
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\obj\Debug\GroupPage.g.cs
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\obj\Debug\Workbridge_MarkupCompile.lref
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\obj\Debug\App.baml
+D:\Workbridge\Workbridge\obj\Debug\MessagesPage.baml
+D:\Workbridge\Workbridge\obj\Debug\MessagesPage.g.cs

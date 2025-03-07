@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\obj\Debug\
+D:\Workbridge\Workbridge\obj\Debug\
 Workbridge
 none
 false
 DEBUG;TRACE
-C:\Users\user\Documents\GitHub\GUI\Workbridge\Workbridge\App.xaml
-7-1143981550
+D:\Workbridge\Workbridge\App.xaml
+81860178091
 
-139552675
-128-1415011746
-GetStartedWindow.xaml;GroupPage.xaml;HomePage.xaml;LoginPage.xaml;MainWindow.xaml;ProfilePage.xaml;RegisterPage.xaml;
+14580627810
+128377854372
+GetStartedWindow.xaml;GroupPage.xaml;HomePage.xaml;LoginPage.xaml;MainWindow.xaml;MessagesPage.xaml;ProfilePage.xaml;RegisterPage.xaml;
 
 False
 

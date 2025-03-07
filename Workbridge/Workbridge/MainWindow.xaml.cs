@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Navigation;
 
 namespace Workbridge
@@ -28,7 +29,10 @@ namespace Workbridge
         {
             MainContent.Navigate(new GroupPage());
         }
-
+        private void GoToMessages(object sender, RoutedEventArgs e)
+        {
+            MainContent.Navigate(new Uri("MessagesPage.xaml", UriKind.Relative));
+        }
 
         private void Logout(object sender, RoutedEventArgs e)
         {

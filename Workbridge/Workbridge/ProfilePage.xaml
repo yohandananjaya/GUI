@@ -4,7 +4,14 @@
       Title="Profile Page"
       Background="#F9F9F9">
 
-    <Grid Margin="20">
+    <Grid Opacity="0.9">
+        <Grid.Background>
+           
+            <ImageBrush ImageSource="D:\Workbridge\images\compan.png" Stretch="UniformToFill" Opacity="0.8"/>
+        </Grid.Background>
+        
+        
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -12,10 +19,10 @@
         </Grid.RowDefinitions>
 
         <!-- Title -->
-        <TextBlock Text="User Profile" 
-                   FontSize="28" 
+        <TextBlock Text="PROFILE" 
+                   FontSize="40" 
                    FontWeight="Bold" 
-                   Foreground="#333333" 
+                   Foreground="White" 
                    HorizontalAlignment="Center" 
                    Margin="0,0,0,20"/>
 
@@ -28,9 +35,9 @@
 
             <!-- Left Column -->
             <Border Grid.Column="0" 
-                    Background="White" 
+                    Background="AliceBlue" 
                     CornerRadius="8" 
-                    Padding="20" 
+                    Padding="17" 
                     Margin="0,0,10,0" 
                     BorderBrush="#E0E0E0" 
                     BorderThickness="1">
@@ -52,11 +59,11 @@
             </Border>
 
             <!-- Right Column -->
-            <Border Grid.Column="1" 
-                    Background="White" 
+            <Border Grid.Column="2" 
+                    Background="AliceBlue" 
                     CornerRadius="8" 
-                    Padding="20" 
-                    Margin="10,0,0,0" 
+                    Padding="17" 
+                    Margin="10,0,10,0" 
                     BorderBrush="#E0E0E0" 
                     BorderThickness="1">
                 <StackPanel>
@@ -69,7 +76,7 @@
                     <TextBox Name="SoftSkillsBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
                     <TextBlock Text="Languages" FontSize="16" FontWeight="SemiBold"/>
-                    <TextBox Name="LanguagesBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
+                    <TextBox Name="LanguagesBox" FontSize="14" Padding="8" Margin="0,5,0,10" TextChanged="LanguagesBox_TextChanged"/>
 
                     <TextBlock Text="Birthday" FontSize="16" FontWeight="SemiBold"/>
                     <DatePicker Name="BirthdayPicker" FontSize="14" Padding="8" Margin="0,5,0,10"/>

@@ -134,5 +134,9 @@ namespace Workbridge
             }
         }
 
+        private void LanguagesBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

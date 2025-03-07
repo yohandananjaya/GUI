@@ -10,267 +10,267 @@
         </Grid.Background>
 
         <!-- Gradient Overlay -->
-        <Rectangle>
+        <Rectangle  Opacity="0.2">
             <Rectangle.Fill>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#1ABC9C" Offset="0.0"/>
-                    <!-- Dark Blue -->
                     <GradientStop Color="White" Offset="1.0"/>
-                    <!-- Light Blue -->
-                    
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
 
         <!-- Main Content -->
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <!-- Welcome Text -->
-            <TextBlock Text="Workbridge" 
-                       FontSize="30" 
-                       FontWeight="Bold" 
-                       Foreground="White" 
-                       HorizontalAlignment="Center" 
-                       Margin="0,0,0,20"/>
+        <Viewbox Stretch="Uniform">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <!-- Welcome Text -->
+                <TextBlock x:Name="WelcomeText" 
+           Text="Workbridge" 
+           FontSize="30" 
+           FontWeight="Bold" 
+           Foreground="White" 
+           HorizontalAlignment="Center" 
+           Margin="0,0,0,20"/>
 
-            <!-- Job Search Buttons (2x2 Grid Layout) -->
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,40">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
+                <!-- Job Search Buttons (2x2 Grid Layout) -->
+                <Grid HorizontalAlignment="Center" Margin="0,0,0,40" Width="360">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
 
-                <!-- Find Jobs -->
-                <StackPanel Grid.Row="0" Grid.Column="0" Margin="10">
-                    <Image Source="D:\Workbridge\images\occupations_e801217af0.png" Width="106" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Button Content="Find Jobs" 
-                            Width="150" 
-                            Height="40" 
-                            Click="FindJobs_Click"
-                            Background="#1ABC9C" 
-                            Foreground="White" 
-                            FontSize="16" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#16A085"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
-                </StackPanel>
+                    <!-- Find Jobs -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="10">
+                        <Image Source="D:\Workbridge\images\occupations_e801217af0.png" Width="106" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="Find Jobs" 
+                                Width="150" 
+                                Height="40" 
+                                Click="FindJobs_Click"
+                                Background="#1ABC9C" 
+                                Foreground="White" 
+                                FontSize="16" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#16A085"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
 
-                <!-- Part-Time Jobs -->
-                <StackPanel Grid.Row="0" Grid.Column="1" Margin="10">
-                    <Image Source="D:\Workbridge\images\parttime.png" Width="138" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Button Content="Part-Time Jobs" 
-                            Width="150" 
-                            Height="40" 
-                            Click="PartTimeJobs_Click"
-                            Background="#3498DB" 
-                            Foreground="White" 
-                            FontSize="16" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#2980B9"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
-                </StackPanel>
+                    <!-- Part-Time Jobs -->
+                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="10">
+                        <Image Source="D:\Workbridge\images\parttime.png" Width="138" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="Part-Time Jobs" 
+                                Width="150" 
+                                Height="40" 
+                                Click="PartTimeJobs_Click"
+                                Background="#3498DB" 
+                                Foreground="White" 
+                                FontSize="16" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#2980B9"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
 
-                <!-- Remote Jobs -->
-                <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
-                    <Image Source="D:\Workbridge\images\OIP.png" Width="98" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Button Content="Remote Jobs" 
-                            Width="150" 
-                            Height="40" 
-                            Click="RemoteJobs_Click"
-                            Background="#9B59B6" 
-                            Foreground="White" 
-                            FontSize="16" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#8E44AD"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
-                </StackPanel>
+                    <!-- Remote Jobs -->
+                    <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
+                        <Image Source="D:\Workbridge\images\OIP.png" Width="98" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="Remote Jobs" 
+                                Width="150" 
+                                Height="40" 
+                                Click="RemoteJobs_Click"
+                                Background="#9B59B6" 
+                                Foreground="White" 
+                                FontSize="16" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#8E44AD"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
 
-                <!-- Freelance Jobs -->
-                <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
-                    <Image Source="D:\Workbridge\images\freelance.png" Width="96" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Button Content="Freelance Jobs" 
-                            Width="150" 
-                            Height="40" 
-                            Click="FreelanceJobs_Click"
-                            Background="#E67E22" 
-                            Foreground="White" 
-                            FontSize="16" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#D35400"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
-                </StackPanel>
-            </Grid>
+                    <!-- Freelance Jobs -->
+                    <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+                        <Image Source="D:\Workbridge\images\freelance.png" Width="96" Height="64" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="Freelance Jobs" 
+                                Width="150" 
+                                Height="40" 
+                                Click="FreelanceJobs_Click"
+                                Background="#E67E22" 
+                                Foreground="White" 
+                                FontSize="16" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#D35400"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </Grid>
 
-            <!-- Post Section -->
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,40,0,0">
-                <!-- TextBox for Post -->
-                <TextBox Name="PostTextBox" 
-                         Width="300" 
-                         Height="100" 
-                         Margin="0,10" 
-                         AcceptsReturn="True"
-                         Background="White"
-                         Foreground="#2C3E50"
-                         BorderBrush="#4CA1AF"
-                         BorderThickness="1"
-                         Padding="10"/>
+                <!-- Post Section -->
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,40,0,0">
+                    <!-- TextBox for Post -->
+                    <TextBox Name="PostTextBox" 
+                             Width="300" 
+                             Height="100" 
+                             Margin="0,10" 
+                             AcceptsReturn="True"
+                             Background="White"
+                             Foreground="#2C3E50"
+                             BorderBrush="#4CA1AF"
+                             BorderThickness="1"
+                             Padding="10"/>
 
-                <!-- Buttons for Sharing Post and Uploading Photo -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button Content="Share Post" 
-                            Width="150" 
-                            Height="30" 
-                            Margin="10" 
-                            Click="SharePost_Click"
-                            Background="#1ABC9C" 
-                            Foreground="White" 
-                            FontSize="14" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#16A085"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
+                    <!-- Buttons for Sharing Post and Uploading Photo -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Share Post" 
+                                Width="150" 
+                                Height="30" 
+                                Margin="10" 
+                                Click="SharePost_Click"
+                                Background="#1ABC9C" 
+                                Foreground="White" 
+                                FontSize="14" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#16A085"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
 
-                    <Button Content="Upload Photo" 
-                            Width="150" 
-                            Height="30" 
-                            Margin="10" 
-                            Click="UploadPhoto_Click"
-                            Background="#3498DB" 
-                            Foreground="White" 
-                            FontSize="14" 
-                            FontWeight="Bold"
-                            BorderThickness="0"
-                            Cursor="Hand">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="Button">
-                                            <Border Background="{TemplateBinding Background}" 
-                                                    CornerRadius="5">
-                                                <ContentPresenter HorizontalAlignment="Center" 
-                                                              VerticalAlignment="Center"/>
-                                            </Border>
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#2980B9"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                    </Button>
+                        <Button Content="Upload Photo" 
+                                Width="150" 
+                                Height="30" 
+                                Margin="10" 
+                                Click="UploadPhoto_Click"
+                                Background="#3498DB" 
+                                Foreground="White" 
+                                FontSize="14" 
+                                FontWeight="Bold"
+                                BorderThickness="0"
+                                Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" 
+                                                        CornerRadius="5">
+                                                    <ContentPresenter HorizontalAlignment="Center" 
+                                                                  VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#2980B9"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
-        </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>
