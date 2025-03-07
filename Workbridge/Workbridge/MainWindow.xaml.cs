@@ -5,9 +5,12 @@ namespace Workbridge
 {
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private int _userId; // Store the logged-in user's ID
+
+        public MainWindow(int userId)
         {
             InitializeComponent();
+            _userId = userId;
             MainContent.Navigate(new HomePage()); // Load HomePage by default
         }
 
@@ -18,8 +21,14 @@ namespace Workbridge
 
         private void GoToProfile(object sender, RoutedEventArgs e)
         {
-            MainContent.Navigate(new ProfilePage());
+            // Navigate to the ProfilePage and pass the user ID
+            MainContent.Navigate(new ProfilePage(_userId));
         }
+        private void GoToGroup(object sender, RoutedEventArgs e)
+        {
+            MainContent.Navigate(new GroupPage());
+        }
+
 
         private void Logout(object sender, RoutedEventArgs e)
         {

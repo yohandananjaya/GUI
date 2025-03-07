@@ -15,23 +15,30 @@ namespace Workbridge
             using (var conn = DatabaseHelper.GetConnection())
             {
                 conn.Open();
-                string query = "SELECT FullName FROM Users WHERE Email=@Email AND Password=@Password";
+                string query = "SELECT Id, FullName FROM Users WHERE Email = @Email AND Password = @Password";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Email", EmailBox.Text);
                     cmd.Parameters.AddWithValue("@Password", PasswordBox.Password);
 
-                    var result = cmd.ExecuteScalar();
-                    if (result != null)
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        MessageBox.Show($"Welcome, {result}!");
-                        MainWindow main = new MainWindow();
-                        main.Show();
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Invalid credentials!");
+                        if (reader.Read())
+                        {
+                            int userId = reader.GetInt32(0); // Get the user's ID
+                            string fullName = reader.GetString(1); // Get the user's full name
+
+                            MessageBox.Show($"Welcome, {fullName}!");
+
+                            // Open the main window and pass the user ID
+                            MainWindow main = new MainWindow(userId);
+                            main.Show();
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid credentials!");
+                        }
                     }
                 }
             }

@@ -1,0 +1,56 @@
+﻿<Page x:Class="Workbridge.GroupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Groups">
+
+    <Grid Background="#F5F5F5">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400">
+            <!-- Title -->
+            <TextBlock Text="Group Management" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Foreground="#2C3E50" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,20"/>
+
+            <!-- Search Group -->
+            <TextBlock Text="Find Groups" FontSize="14" Foreground="Black" Margin="0,5,0,5"/>
+            <TextBox x:Name="SearchBox" 
+                     Height="30" Padding="5" 
+                     Background="White" Foreground="#2C3E50" 
+                     BorderBrush="#4CA1AF" BorderThickness="1"
+                     TextChanged="SearchGroups"/>
+
+            <!-- List of Groups -->
+            <ListBox x:Name="GroupsList" 
+                     Height="200" 
+                     Background="White" 
+                     BorderBrush="#4CA1AF" 
+                     BorderThickness="1">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding}" FontSize="16" Foreground="Black" Margin="5"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <!-- Create New Group -->
+            <TextBlock Text="Create New Group" FontSize="14" Foreground="Black" Margin="0,10,0,5"/>
+            <TextBox x:Name="GroupNameBox" Height="30" Padding="5" Background="White" 
+                     Foreground="#2C3E50" BorderBrush="#4CA1AF" BorderThickness="1"/>
+
+            <Button Content="Create Group" 
+                    Width="150" Height="35" 
+                    Margin="0,10,0,20" 
+                    Click="CreateGroup"
+                    Background="#1ABC9C" 
+                    Foreground="White" 
+                    FontSize="14" 
+                    FontWeight="Bold" 
+                    BorderThickness="0" 
+                    Cursor="Hand"/>
+        </StackPanel>
+    </Grid>
+</Page>

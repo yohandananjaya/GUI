@@ -42,7 +42,6 @@ namespace Workbridge
                         CREATE TABLE IF NOT EXISTS Profile (
                             Id INTEGER PRIMARY KEY AUTOINCREMENT,
                             UserId INTEGER NOT NULL,
-                            FullName TEXT NOT NULL,
                             Department TEXT,
                             WorkExperience INTEGER,
                             CurrentProjects TEXT,

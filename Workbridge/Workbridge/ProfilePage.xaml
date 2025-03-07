@@ -1,49 +1,93 @@
 ﻿<Page x:Class="Workbridge.ProfilePage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      Title="Profile Page">
+      Title="Profile Page"
+      Background="#F9F9F9">
+
     <Grid Margin="20">
-        <TextBlock Text="User Profile" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <StackPanel>
-            <!-- Full Name -->
-            <TextBlock Text="Full Name:" Margin="0,5"/>
-            <TextBox Name="FullNameBox" Width="300" Margin="0,0,0,10"/>
+        <!-- Title -->
+        <TextBlock Text="User Profile" 
+                   FontSize="28" 
+                   FontWeight="Bold" 
+                   Foreground="#333333" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
 
-            <!-- Department -->
-            <TextBlock Text="Department:" Margin="0,5"/>
-            <TextBox Name="DepartmentBox" Width="300" Margin="0,0,0,10"/>
+        <!-- Main Content Grid -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-            <!-- Work Experience -->
-            <TextBlock Text="Work Experience:" Margin="0,5"/>
-            <TextBox Name="WorkExperienceBox" Width="300" Margin="0,0,0,10"/>
+            <!-- Left Column -->
+            <Border Grid.Column="0" 
+                    Background="White" 
+                    CornerRadius="8" 
+                    Padding="20" 
+                    Margin="0,0,10,0" 
+                    BorderBrush="#E0E0E0" 
+                    BorderThickness="1">
+                <StackPanel>
+                    <TextBlock Text="Full Name" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="DepartmentBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
-            <!-- Current Projects -->
-            <TextBlock Text="Current Projects:" Margin="0,5"/>
-            <TextBox Name="CurrentProjectsBox" Width="300" Margin="0,0,0,10"/>
+                    <TextBlock Text="Work Experience" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="WorkExperienceBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
-            <!-- Education Level -->
-            <TextBlock Text="Education Level:" Margin="0,5"/>
-            <TextBox Name="EducationLevelBox" Width="300" Margin="0,0,0,10"/>
+                    <TextBlock Text="Current Projects" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="CurrentProjectsBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
-            <!-- Certifications -->
-            <TextBlock Text="Certifications:" Margin="0,5"/>
-            <TextBox Name="CertificationsBox" Width="300" Margin="0,0,0,10"/>
+                    <TextBlock Text="Education Level" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="EducationLevelBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
+                    <TextBlock Text="Certifications" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="CertificationsBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
+                </StackPanel>
+            </Border>
 
-            <!-- Hard Skills -->
-            <TextBlock Text="Hard Skills:" Margin="0,5"/>
-            <TextBox Name="HardSkillsBox" Width="300" Margin="0,0,0,10"/>
+            <!-- Right Column -->
+            <Border Grid.Column="1" 
+                    Background="White" 
+                    CornerRadius="8" 
+                    Padding="20" 
+                    Margin="10,0,0,0" 
+                    BorderBrush="#E0E0E0" 
+                    BorderThickness="1">
+                <StackPanel>
+                   
 
-            <!-- Soft Skills -->
-            <TextBlock Text="Soft Skills:" Margin="0,5"/>
-            <TextBox Name="SoftSkillsBox" Width="300" Margin="0,0,0,10"/>
+                    <TextBlock Text="Hard Skills" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="HardSkillsBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
-            <!-- Languages -->
-            <TextBlock Text="Languages:" Margin="0,5"/>
-            <TextBox Name="LanguagesBox" Width="300" Margin="0,0,0,10"/>
+                    <TextBlock Text="Soft Skills" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="SoftSkillsBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
 
-            <!-- Save Button -->
-            <Button Content="Save Profile" Width="100" HorizontalAlignment="Left" Margin="0,20,0,0" Click="SaveProfile"/>
+                    <TextBlock Text="Languages" FontSize="16" FontWeight="SemiBold"/>
+                    <TextBox Name="LanguagesBox" FontSize="14" Padding="8" Margin="0,5,0,10"/>
+
+                    <TextBlock Text="Birthday" FontSize="16" FontWeight="SemiBold"/>
+                    <DatePicker Name="BirthdayPicker" FontSize="14" Padding="8" Margin="0,5,0,10"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Save Button -->
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button Content="Save Profile" 
+                    Width="200" 
+                    Padding="10" 
+                    Background="#0078D4" 
+                    Foreground="White" 
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    BorderBrush="Transparent" 
+                    Click="SaveProfile"/>
         </StackPanel>
     </Grid>
 </Page>

@@ -2,18 +2,15 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Workbridge - Get Started" 
-        Height="350" 
-        Width="450" 
+        Height="400" 
+        Width="600" 
         WindowStartupLocation="CenterScreen" 
         ResizeMode="NoResize">
 
-    <!-- Define the RoundedButtonStyle as a Window Resource -->
     <Window.Resources>
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#FF6F61"/>
-            <!-- Default background -->
             <Setter Property="Foreground" Value="White"/>
-            <!-- Default text color -->
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="BorderThickness" Value="0"/>
@@ -24,7 +21,6 @@
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" 
                                 CornerRadius="25">
-                            <!-- Rounded corners -->
                             <ContentPresenter HorizontalAlignment="Center" 
                                               VerticalAlignment="Center"/>
                         </Border>
@@ -32,52 +28,43 @@
                 </Setter.Value>
             </Setter>
             <Style.Triggers>
-                <!-- Hover Effect -->
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#FF4A3A"/>
-                    <!-- Darker color on hover -->
                 </Trigger>
             </Style.Triggers>
         </Style>
     </Window.Resources>
 
     <Grid>
-        <!-- Background Gradient -->
-        <Grid.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#2C3E50" Offset="0.0"/>
-                <GradientStop Color="#4CA1AF" Offset="0.5"/>
-                <GradientStop Color="#1A2980" Offset="1.0"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+        <!-- Background Image -->
+        <Image Source="D:\Workbridge\images\hero_82.png" 
+               Stretch="Fill" 
+               Opacity="0.8"/>
 
-        <!-- Welcome Text -->
-        <TextBlock Text="Welcome to Workbridge" 
-                   FontSize="24" 
-                   FontWeight="Bold" 
-                   Foreground="White"
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Top" 
-                   Margin="0,40,0,0" 
-                   Opacity="0.9"/>
+        <!-- Content Overlay -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Welcome to Workbridge" 
+                       FontSize="30" 
+                       FontWeight="Bold" 
+                       Foreground="White"
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,10" 
+                       Opacity="0.9" RenderTransformOrigin="0.489,-0.805" Height="102"/>
 
-        <!-- Subtext -->
-        <TextBlock Text="Your career journey starts here" 
-                   FontSize="14" 
-                   Foreground="White" 
-                   FontStyle="Italic"
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Top" 
-                   Margin="0,80,0,0" 
-                   Opacity="0.8"/>
+            <TextBlock Text="Your career journey starts here" 
+                       FontSize="14" 
+                       Foreground="White" 
+                       FontStyle="Italic"
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,20" 
+                       Opacity="0.8" Height="26"/>
 
-        <!-- Get Started Button -->
-        <Button Content="Get Started" 
-                Width="180" 
-                Height="50" 
-                Click="GetStarted_Click"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Center" 
-                Style="{StaticResource RoundedButtonStyle}"/>
+            <Button Content="Get Started" 
+                    Width="180" 
+                    Height="50" 
+                    Click="GetStarted_Click"
+                    HorizontalAlignment="Center" 
+                    Style="{StaticResource RoundedButtonStyle}"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -63,5 +63,10 @@ namespace Workbridge
             loginPage.Show();
             this.Close();
         }
+
+        private void FullNameBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
     }
 }
