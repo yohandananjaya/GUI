@@ -1,0 +1,182 @@
+/* Home.css */
+.hom-container {
+  display: flex;
+  height: 100vh; /* Full height */
+  background-color: #f4f4f4;
+}
+
+/* Sidebar Button Container */
+.left-side-buttons {
+  width: 230px; /* Sidebar width */
+  background-color: #1e1e2f; /* Dark background */
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-button {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-button:hover {
+  background-color: #44446f;
+}
+
+.active {
+  background-color: #007bff; /* Highlight active page */
+}
+
+/* Main Content */
+.hom-content {
+  margin-left: 230px; /* Push content to the right */
+  text-align: center;
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.hom-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hom-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Search Bar */
+/* Search Bar */
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 40px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none; /* Remove default outline */
+}
+
+.search-bar button {
+  padding: 8px 16px; /* Smaller padding */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px; /* Space between input and button */
+  cursor: pointer;
+  font-size: 0.9rem; /* Smaller font size */
+  width: 100px; /* Adjust width as needed */
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+/* Job Buttons Container */
+.job-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.job-button {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.job-button img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+ 
+}
+
+.job-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.job-button button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hom-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .left-side-buttons {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .nav-button {
+    margin: 5px;
+    width: auto;
+  }
+
+ 
+    .search-bar {
+      flex-direction: column; /* Stack input and button vertically on mobile */
+      gap: 10px; /* Add space between input and button */
+    }
+  
+    .search-bar input {
+      width: 100%; /* Full width input on mobile */
+    }
+  
+    .search-bar button {
+      width: 100%; /* Full width button on mobile */
+      margin-left: 0; /* Remove left margin */
+    }
+  
+
+  .job-buttons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

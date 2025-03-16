@@ -11,8 +11,11 @@ import EProfile from './component/Profile';
 import CreateProfile from './component/CreateProfile';
 import EditProfile from './component/EditProfile';
 import LoginForm from './component/LoginForm';
+import Hom from './component/Hom';
 
 import './App.css';
+import Messages from './component/Messages';
+import WB from './component/WB';
 
 function App() {
   const [isPopupActive, setIsPopupActive] = useState(false);
@@ -24,8 +27,10 @@ function App() {
         <Routes>
           
           <Route path="/login" element={<LoginForm />} />
+          <Route path="/appointment/messages" element={<Messages />} />
 
-          
+          <Route path="/appointment/home" element={<Hom />} />
+          <Route path="/appointment/wb" element={<WB />} />
           <Route path="/appointment/table" element={<EProfile />} />
           <Route path="/edit/appointment/:productCode" element={<EditProfile />} />
           <Route path="/create/appointment" element={<CreateProfile />} />
