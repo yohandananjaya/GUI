@@ -19,21 +19,30 @@ namespace Workbridge
         {
             MainContent.Navigate(new HomePage());
         }
+        private void SharePost(object sender, RoutedEventArgs e)
+        {
+            // Navigate to the SharePostPage or open a dialog for sharing posts
+            MainContent.Navigate(new SharePost());
+        }
+
 
         private void GoToProfile(object sender, RoutedEventArgs e)
         {
             // Navigate to the ProfilePage and pass the user ID
             MainContent.Navigate(new ProfilePage(_userId));
         }
+
         private void GoToGroup(object sender, RoutedEventArgs e)
         {
             MainContent.Navigate(new GroupPage());
         }
+
         private void GoToMessages(object sender, RoutedEventArgs e)
         {
             MainContent.Navigate(new Uri("MessagesPage.xaml", UriKind.Relative));
         }
 
+       
         private void Logout(object sender, RoutedEventArgs e)
         {
             LoginPage loginPage = new LoginPage();

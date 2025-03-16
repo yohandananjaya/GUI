@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using Microsoft.Win32;
 
 namespace Workbridge
 {
@@ -11,20 +10,16 @@ namespace Workbridge
         {
             InitializeComponent();
         }
+
         private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            // Add your resizing logic here
-            // For example, you can adjust the font size, margins, or visibility of elements
-            // based on the new size of the window.
-
-            // Example: Adjust the font size of the welcome text based on the window width
             if (e.NewSize.Width < 800)
             {
                 WelcomeText.FontSize = 24; // Smaller font size for smaller windows
             }
             else
             {
-                WelcomeText.FontSize = 30; // Default font size for larger windows
+                WelcomeText.FontSize = 40; // Default font size for larger windows
             }
         }
 
@@ -32,56 +27,57 @@ namespace Workbridge
         private void FindJobs_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Find Jobs button clicked!");
-            // Add logic to navigate to a job search page or display job listings
         }
 
         // Event handler for "Part-Time Jobs" button
         private void PartTimeJobs_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Part-Time Jobs button clicked!");
-            // Add logic to filter and display part-time jobs
         }
 
         // Event handler for "Remote Jobs" button
         private void RemoteJobs_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Remote Jobs button clicked!");
-            // Add logic to filter and display remote jobs
         }
 
         // Event handler for "Freelance Jobs" button
         private void FreelanceJobs_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Freelance Jobs button clicked!");
-            // Add logic to filter and display freelance jobs
         }
 
-        // Event handler for "Share Post" button
-        private void SharePost_Click(object sender, RoutedEventArgs e)
+        // Event handler for "Search" button
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            string postText = PostTextBox.Text;
-            if (!string.IsNullOrWhiteSpace(postText))
+            string searchText = SearchTextBox.Text;
+            if (!string.IsNullOrWhiteSpace(searchText))
             {
-                MessageBox.Show("Post shared: " + postText);
-                // Add logic to save the post to a database or display it in a feed
+                MessageBox.Show("Searching for: " + searchText);
+                // Add logic to search for jobs based on the search text
             }
             else
             {
-                MessageBox.Show("Please write something to share!");
+                MessageBox.Show("Please enter a search term!");
             }
         }
 
-        // Event handler for "Upload Photo" button
-        private void UploadPhoto_Click(object sender, RoutedEventArgs e)
+        // Event handler for TextBox text change
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Image files (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg|All files (*.*)|*.*";
-            if (openFileDialog.ShowDialog() == true)
-            {
-                string photoPath = openFileDialog.FileName;
-                MessageBox.Show("Photo uploaded: " + photoPath);
-                // Add logic to save the photo to a database or display it in a feed
-            }
+            SearchPlaceholder.Visibility = string.IsNullOrEmpty(SearchTextBox.Text) ? Visibility.Visible : Visibility.Collapsed;
+        }
+
+        // Event handler for TextBox focus
+        private void SearchTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            SearchPlaceholder.Visibility = Visibility.Collapsed;
+        }
+
+        // Event handler for TextBox lost focus
+        private void SearchTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            SearchPlaceholder.Visibility = string.IsNullOrEmpty(SearchTextBox.Text) ? Visibility.Visible : Visibility.Collapsed;
         }
     }
 }

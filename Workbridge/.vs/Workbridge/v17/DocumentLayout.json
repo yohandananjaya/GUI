@@ -3,84 +3,103 @@
   "WorkspaceRootPath": "D:\\Workbridge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\getstartedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\getstartedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\grouppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\grouppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|d:\\workbridge\\workbridge\\getstartedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\getstartedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|d:\\workbridge\\workbridge\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|d:\\workbridge\\workbridge\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\sharepost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\sharepost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|d:\\workbridge\\workbridge\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\sharepost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\sharepost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\grouppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\grouppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\grouppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\grouppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\getstartedwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\getstartedwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Workbridge||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|D:\\Workbridge\\workbridge\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AED665-8018-4F0A-8EDC-63A849B287EF}|Workbridge\\Workbridge.csproj|solutionrelative:workbridge\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -89,11 +108,11 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 170,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,45 +124,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\Converters.cs",
+              "RelativeDocumentMoniker": "Workbridge\\Converters.cs",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\Converters.cs",
+              "RelativeToolTip": "Workbridge\\Converters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:30:18.679Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Workbridge",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\Workbridge.csproj",
+              "RelativeDocumentMoniker": "Workbridge\\Workbridge.csproj",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\Workbridge.csproj",
+              "RelativeToolTip": "Workbridge\\Workbridge.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-11T19:24:19.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NullToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\NullToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Workbridge\\NullToVisibilityConverter.cs",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\NullToVisibilityConverter.cs",
+              "RelativeToolTip": "Workbridge\\NullToVisibilityConverter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T03:23:42.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SharePost.xaml.cs",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\SharePost.xaml.cs",
+              "RelativeDocumentMoniker": "Workbridge\\SharePost.xaml.cs",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\SharePost.xaml.cs",
+              "RelativeToolTip": "Workbridge\\SharePost.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:29:46.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SharePost.xaml",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\SharePost.xaml",
+              "RelativeDocumentMoniker": "Workbridge\\SharePost.xaml",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\SharePost.xaml",
+              "RelativeToolTip": "Workbridge\\SharePost.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T13:29:14.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\LoginPage.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\LoginPage.xaml.cs",
               "RelativeToolTip": "Workbridge\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:31:33.997Z",
-              "IsPinned": true
+              "WhenOpened": "2025-03-05T16:31:33.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Workbridge\\HomePage.xaml",
+              "ToolTip": "D:\\Workbridge\\Workbridge\\HomePage.xaml",
+              "RelativeToolTip": "Workbridge\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T16:41:11.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MessagesPage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\MessagesPage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\MessagesPage.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\MessagesPage.xaml.cs",
               "RelativeToolTip": "Workbridge\\MessagesPage.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:43:23.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:43:23.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MessagesPage.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\MessagesPage.xaml",
               "RelativeDocumentMoniker": "Workbridge\\MessagesPage.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\MessagesPage.xaml",
               "RelativeToolTip": "Workbridge\\MessagesPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-07T11:41:24.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T11:41:24.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "StringToVisibilityConverter.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\StringToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "Workbridge\\StringToVisibilityConverter.cs",
@@ -155,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "GroupPage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\GroupPage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\GroupPage.xaml.cs",
@@ -163,24 +248,22 @@
               "RelativeToolTip": "Workbridge\\GroupPage.xaml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T05:58:08.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T05:58:08.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "GroupPage.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\GroupPage.xaml",
               "RelativeDocumentMoniker": "Workbridge\\GroupPage.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\GroupPage.xaml",
               "RelativeToolTip": "Workbridge\\GroupPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-07T05:57:37.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T05:57:37.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "GetStartedWindow.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\GetStartedWindow.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\GetStartedWindow.xaml.cs",
@@ -204,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [Read Only]",
@@ -215,131 +298,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\HomePage.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\HomePage.xaml.cs",
               "RelativeToolTip": "Workbridge\\HomePage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:41:49.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:41:49.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\Workbridge\\Workbridge\\HomePage.xaml",
-              "RelativeDocumentMoniker": "Workbridge\\HomePage.xaml",
-              "ToolTip": "D:\\Workbridge\\Workbridge\\HomePage.xaml",
-              "RelativeToolTip": "Workbridge\\HomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T16:41:11.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\ProfilePage.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\ProfilePage.xaml.cs",
               "RelativeToolTip": "Workbridge\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAWwIoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCMAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:40:41.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:40:41.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "Workbridge\\ProfilePage.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\ProfilePage.xaml",
               "RelativeToolTip": "Workbridge\\ProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T16:33:51.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:33:51.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\MainWindow.xaml.cs",
               "RelativeToolTip": "Workbridge\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:13:46.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:13:46.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Workbridge\\MainWindow.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\MainWindow.xaml",
               "RelativeToolTip": "Workbridge\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T16:13:46.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:13:46.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "RegisterPage.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\RegisterPage.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\RegisterPage.xaml.cs",
               "RelativeToolTip": "Workbridge\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwD0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAACAlZmZmZkswD8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T16:32:50.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Workbridge\\RegisterPage.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\RegisterPage.xaml",
               "RelativeToolTip": "Workbridge\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T16:31:58.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:31:58.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Workbridge\\LoginPage.xaml",
               "ToolTip": "D:\\Workbridge\\Workbridge\\LoginPage.xaml",
               "RelativeToolTip": "Workbridge\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T16:29:02.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:29:02.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "Workbridge\\DatabaseHelper.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\DatabaseHelper.cs",
               "RelativeToolTip": "Workbridge\\DatabaseHelper.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAnpmZmXk6wEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T16:19:58.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\App.xaml",
               "RelativeDocumentMoniker": "Workbridge\\App.xaml",
@@ -351,16 +415,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Workbridge\\Workbridge\\App.xaml.cs",
               "RelativeDocumentMoniker": "Workbridge\\App.xaml.cs",
               "ToolTip": "D:\\Workbridge\\Workbridge\\App.xaml.cs",
               "RelativeToolTip": "Workbridge\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:16:43.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T16:16:43.702Z"
             }
           ]
         }

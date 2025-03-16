@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -7,68 +7,56 @@ namespace Workbridge
 {
     public partial class MessagesPage : Page
     {
+        public ObservableCollection<ChatItem> Conversations { get; set; }
+        public ObservableCollection<MessageItem> Messages { get; set; }
+
         public MessagesPage()
         {
             InitializeComponent();
-            LoadMessages();
-        }
 
-        private void LoadMessages()
-        {
-            // Sample data for Inbox
-            var inboxMessages = new List<ChatMessage>
+            // Sample Chats
+            Conversations = new ObservableCollection<ChatItem>
             {
-                new ChatMessage { Sender = "John Doe", Content = "Hey, how are you?", Timestamp = DateTime.Now.ToString("hh:mm tt") },
-                new ChatMessage { Sender = "Jane Smith", Content = "Let's meet tomorrow.", Timestamp = DateTime.Now.ToString("hh:mm tt") }
+                new ChatItem { Sender = "Tharidu", LastMessage = "Hey, how are you?" },
+                new ChatItem { Sender = "Supun", LastMessage = "Check this out!" },
+                new ChatItem { Sender = "Kavinda", LastMessage = "Are we meeting today?" }
             };
 
-            // Sample data for Sendbox
-            var sendboxMessages = new List<ChatMessage>
+            // Default Messages
+            Messages = new ObservableCollection<MessageItem>
             {
-                new ChatMessage { Receiver = "John Doe", Content = "I'm doing great!", Timestamp = DateTime.Now.ToString("hh:mm tt") },
-                new ChatMessage { Receiver = "Jane Smith", Content = "Sure, let's meet at 10 AM.", Timestamp = DateTime.Now.ToString("hh:mm tt") }
+                new MessageItem { Sender = "Ahinsa", Message = "Hey, how are you?" },
+                new MessageItem { Sender = "You", Message = "I'm good, you?" }
             };
 
-            // Bind the messages to the ListBoxes
-            InboxList.ItemsSource = inboxMessages;
-            SendboxList.ItemsSource = sendboxMessages;
+            ConversationsList.ItemsSource = Conversations;
+            ChatMessages.ItemsSource = Messages;
         }
 
-        private void SendMessage_Click(object sender, RoutedEventArgs e)
+        private void SendButton_Click(object sender, RoutedEventArgs e)
         {
-            string messageContent = MessageInput.Text.Trim();
-
-            if (!string.IsNullOrEmpty(messageContent))
+            if (!string.IsNullOrWhiteSpace(MessageInput.Text))
             {
-                // Add the message to the Sendbox
-                var newMessage = new ChatMessage
-                {
-                    Receiver = "Recipient Name", // Replace with actual recipient logic
-                    Content = messageContent,
-                    Timestamp = DateTime.Now.ToString("hh:mm tt")
-                };
-
-                // Update the Sendbox
-                var sendboxMessages = SendboxList.ItemsSource as List<ChatMessage>;
-                sendboxMessages?.Add(newMessage);
-                SendboxList.Items.Refresh();
-
-                // Clear the input box
+                Messages.Add(new MessageItem { Sender = "You", Message = MessageInput.Text });
                 MessageInput.Clear();
             }
-            else
-            {
-                MessageBox.Show("Please enter a message.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
+        }
+
+        private void ConversationsList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Change messages based on selected chat (implement later)
         }
     }
 
-    // ChatMessage class to represent a message
-    public class ChatMessage
+    public class ChatItem
     {
-        public string Sender { get; set; } // For Inbox
-        public string Receiver { get; set; } // For Sendbox
-        public string Content { get; set; }
-        public string Timestamp { get; set; }
+        public string Sender { get; set; }
+        public string LastMessage { get; set; }
+    }
+
+    public class MessageItem
+    {
+        public string Sender { get; set; }
+        public string Message { get; set; }
     }
 }

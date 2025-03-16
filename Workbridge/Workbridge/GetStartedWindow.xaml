@@ -9,7 +9,7 @@
 
     <Window.Resources>
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="#FF6F61"/>
+            <Setter Property="Background" Value="DarkGray"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -29,7 +29,7 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FF4A3A"/>
+                    <Setter Property="Background" Value="LightBlue"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -37,9 +37,9 @@
 
     <Grid>
         <!-- Background Image -->
-        <Image Source="D:\Workbridge\images\hero_82 (2).png" 
+        <Image Source="D:\Workbridge\images\ec8de289-9234-4c69-a19e-a43e790ac786.png" 
                Stretch="Fill" 
-               Opacity="0.8"/>
+               Opacity="0.8" Margin="0,0,0,10"/>
 
         <!-- Content Overlay -->
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -48,21 +48,22 @@
                        FontWeight="Bold" 
                        Foreground="Blue"
                        HorizontalAlignment="Center" 
-                       Margin="0,0,0,10" 
-                       Opacity="0.9" RenderTransformOrigin="0.489,-0.805" Height="102"/>
+                       Margin="0,0,0,210" 
+                       Opacity="0" RenderTransformOrigin="0.489,-0.805" Height="102"/>
 
             <TextBlock Text="Your career journey starts here" 
                        FontSize="14" 
                        Foreground="White" 
                        FontStyle="Italic"
                        HorizontalAlignment="Center" 
-                       Margin="0,0,0,20" 
-                       Opacity="0.8" Height="26"/>
+                       Margin="15,0,0,-20" 
+                       Opacity="0.8" Height="26" RenderTransformOrigin="0.457,3.54"/>
 
             <Button Content="Get Started" 
                     Width="180" 
                     Height="50" 
                     Click="GetStarted_Click"
+                    Margin="20,20,0,-50"
                     HorizontalAlignment="Center" 
                     Style="{StaticResource RoundedButtonStyle}"/>
         </StackPanel>

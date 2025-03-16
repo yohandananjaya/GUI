@@ -56,6 +56,17 @@
                         HorizontalAlignment="Stretch"
                         Cursor="Hand"/>
 
+                <!-- New WB Button for Share Post -->
+                <Button Content="WB" 
+                        Click="SharePost" 
+                        Foreground="White" 
+                        Background="Transparent" 
+                        FontSize="16" 
+                        Padding="10,5" 
+                        Margin="0,5" 
+                        HorizontalAlignment="Stretch"
+                        Cursor="Hand"/>
+
                 <Button Content="Profile" 
                         Click="GoToProfile" 
                         Foreground="White" 
@@ -75,17 +86,18 @@
                         Margin="0,5" 
                         HorizontalAlignment="Stretch"
                         Cursor="Hand"/>
+
                 <Button Content="Messages" 
-   Click="GoToMessages" 
-   Foreground="White" 
-   Background="Transparent" 
-   FontSize="16" 
-   Padding="10,5" 
-   Margin="0,5" 
-   HorizontalAlignment="Stretch"
-   Cursor="Hand"/>
+                        Click="GoToMessages" 
+                        Foreground="White" 
+                        Background="Transparent" 
+                        FontSize="16" 
+                        Padding="10,5" 
+                        Margin="0,5" 
+                        HorizontalAlignment="Stretch"
+                        Cursor="Hand"/>
+
             </StackPanel>
-         
 
             <!-- Logout Button -->
             <Button Content="Logout" 

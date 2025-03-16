@@ -5,7 +5,7 @@
              StartupUri="GetStartedWindow.xaml">
 
     <Application.Resources>
-
+        <local:MessageBubbleConverter x:Key="MessageBubbleConverter"/>
         <!-- Label Styling -->
         <Style x:Key="LabelStyle" TargetType="TextBlock">
             <Setter Property="FontSize" Value="14"/>
@@ -49,9 +49,6 @@
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Margin" Value="10,0,0,0"/>
         </Style>
-
+        
     </Application.Resources>
-
-
-
 </Application>
